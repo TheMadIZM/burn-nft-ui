@@ -100,7 +100,6 @@ export const GalleryView: FC = ({}) => {
                   {error ? (
                     <div>
                       <h1></h1>
-                      {(error as any)?.message}
                     </div>
                   ) : null}
 
