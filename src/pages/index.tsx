@@ -7,10 +7,10 @@ const Home: NextPage = (props) => {
   return (
     <div  className=" flex flex-col h-screen justify-between">
       <Head>
-        <title>Burn NFT UI</title>
+        <title>Welcome to the IZ-INERATOR!</title>
         <meta
           name="description"
-          content="Burn your Solana NFT and earn SOL"
+          content="Come burn your unwanted Solana NFTs!"
         />
       </Head>
       <GalleryView />

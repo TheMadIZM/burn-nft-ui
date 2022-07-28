@@ -17,7 +17,7 @@ export const SelectAndConnectWalletButton: FC<Props> = ({
       try {
         connect();
       } catch (error) {
-        console.log("Error connecting to the wallet: ", (error as any).message);
+        console.log("Error connecting to wallet: ", (error as any).message);
       }
     }
   }, [wallet]);
@@ -31,7 +31,7 @@ export const SelectAndConnectWalletButton: FC<Props> = ({
       }
       onUseWalletClick();
     } catch (error) {
-      console.log("Error connecting to the wallet: ", (error as any).message);
+      console.log("Error connecting to wallet: ", (error as any).message);
     }
   };
 
@@ -42,7 +42,7 @@ export const SelectAndConnectWalletButton: FC<Props> = ({
         onClick={handleWalletClick}
         disabled={connecting}
       >
-        <div>Show NFTs</div>
+        <div>My NFTs</div>
       </button> : <div></div>}
     </div> 
   );

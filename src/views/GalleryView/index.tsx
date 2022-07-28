@@ -38,13 +38,13 @@ export const GalleryView: FC = ({}) => {
   return (
     <div className="container mx-auto max-w-6xl p-8 2xl:px-0">
       <div className={styles.container}>
-        <div className="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
+        <div className="navbar mb-2 shadow-lg bg-red text-gray-content rounded-box">
           <div className="flex-1 px-2 mx-2">
-            <div className="text-sm breadcrumbs">
-              <ul className="text-xl">
+            <div className="text-2xl">
+              <ul className="text-2xl">
                 <li>
-                  <Link href="/">
-                    <a>BURN-NFT-UI</a>
+                  <Link href="https://incinerator.izmlabs.xyz/">
+                    <a>Welcome to the IZ-INERATOR!</a>
                   </Link>
                 </li>
               </ul>
@@ -59,8 +59,14 @@ export const GalleryView: FC = ({}) => {
           <div className="hero min-h-16 p-0 pt-10">
             <div className="text-center hero-content w-full">
               <div className="w-full">
-                <h1 className="mb-5 text-5xl">
-                  Burn your Solana <SolanaLogo /> NFTs and get $SOL back
+                <h1 className="mb-6 text-6xl">
+                  Burn your unwanted <SolanaLogo /> NFTs!
+                </h1>
+                <h1 className="mb-2 text-m">
+                  This will load token accounts, allow you to choose which ones you want to close, and return the rent! (Ususally about .002 SOL)
+                </h1>
+                <h1 className="mb-10 text-m">
+                  Some accounts may not load. Please be careful, and use at your discretion, as burns are irreversible.
                 </h1>
                 
                 <div className="w-full min-w-full">
@@ -93,7 +99,7 @@ export const GalleryView: FC = ({}) => {
                 <div className="mb-auto my-10">
                   {error ? (
                     <div>
-                      <h1>Error Occures</h1>
+                      <h1></h1>
                       {(error as any)?.message}
                     </div>
                   ) : null}
@@ -128,7 +134,7 @@ const NftList = ({ nfts, error }: NftListProps) => {
   if (!nfts?.length) {
     return (
       <div className="text-center text-2xl pt-16">
-        No NFTs found in this wallet
+        No NFTs found...
       </div>
     );
   }
