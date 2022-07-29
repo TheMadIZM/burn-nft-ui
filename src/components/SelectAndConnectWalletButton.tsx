@@ -38,11 +38,11 @@ export const SelectAndConnectWalletButton: FC<Props> = ({
   return (
     <div> {publicKey ?
       <button
-        className="btn btn-primary btn-lg w-40"
+        className="btn btn-primary btn-lg w-60"
         onClick={handleWalletClick}
         disabled={connecting}
       >
-        <div>My Tokens</div>
+        <div>Show my NFT's</div>
       </button> : <div></div>}
     </div> 
   );

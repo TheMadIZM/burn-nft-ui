@@ -59,16 +59,19 @@ export const GalleryView: FC = ({}) => {
           <div className="hero min-h-16 p-0 pt-10">
             <div className="text-center hero-content w-full">
               <div className="w-full">
-                <h1 className="mb-6 text-6xl">
-                  Burn unwanted <SolanaLogo /> NFTs!
+                <h1 className="mb-20 text-6xl">
+                  Burn unwanted <SolanaLogo /> NFT's!
                 </h1>
-                <h1 className="mb-2 text-m">
-                  This app will load token your accounts, allow you to choose which ones you want to close, and return the rent! (Ususally about .002 SOL)
+                <h1 className="mb-4 text-m">
+                  This app will load token your token accounts, allow you to choose which ones you want to close, and return the rent! (Ususally about .002 SOL)
                 </h1>
-                <h1 className="mb-10 text-m">
-                  Some accounts may not provide a title, picture, etc. Please be careful, and use at your discretion, as burns are irreversible.
+                <h1 className="mb-14 text-m">
+                  Some accounts may not provide a title, picture, etc. Please allow larger wallets time to load, and please refresh if needed.
                 </h1>
-                
+                <h1 className="mb-20 text-m">
+                Please be careful, and use at your discretion, as burns are irreversible.
+                </h1>
+
                 <div className="w-full min-w-full">
                   <div>
                     <div className="form-control mt-8">
@@ -139,7 +142,7 @@ const NftList = ({ nfts, error }: NftListProps) => {
   }
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-start">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-10 items-start">
       {nfts?.map((nft) => (
         <NftCard key={nft.mint} details={nft} onSelect={() => {}} />
       ))}
