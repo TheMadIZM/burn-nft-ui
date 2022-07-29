@@ -63,7 +63,7 @@ export const GalleryView: FC = ({}) => {
                   Burn unwanted <SolanaLogo /> NFTs!
                 </h1>
                 <h1 className="mb-4 text-m">
-                  This app will load token your token accounts, allow you to choose which ones you want to close, and return the rent! (Ususally about .002 SOL)
+                  This app will load token your token accounts, allow you to choose which ones you want to close, and return the rent! (Ususally about .002 SOL!)
                 </h1>
                 <h1 className="mb-14 text-m">
                   Some accounts may not provide a title, picture, etc. Please allow larger wallets time to load, and please refresh if needed.
