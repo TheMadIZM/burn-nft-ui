@@ -78,7 +78,7 @@ export const GalleryView: FC = ({}) => {
                           <input
                             readOnly
                             type="text"
-                            placeholder="Please, connect your wallet"
+                            placeholder="Please connect wallet"
                             className="w-full input input-bordered input-lg"
                             value={walletToParsePublicKey}
                             style={{
