@@ -60,7 +60,7 @@ export const GalleryView: FC = ({}) => {
             <div className="text-center hero-content w-full">
               <div className="w-full">
                 <h1 className="mb-20 text-6xl">
-                  Burn unwanted <SolanaLogo /> NFT's!
+                  Burn unwanted <SolanaLogo /> NFTs!
                 </h1>
                 <h1 className="mb-4 text-m">
                   This app will load token your token accounts, allow you to choose which ones you want to close, and return the rent! (Ususally about .002 SOL)
