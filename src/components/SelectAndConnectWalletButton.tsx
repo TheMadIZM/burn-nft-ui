@@ -42,7 +42,7 @@ export const SelectAndConnectWalletButton: FC<Props> = ({
         onClick={handleWalletClick}
         disabled={connecting}
       >
-        <div>My NFTs</div>
+        <div>My Tokens</div>
       </button> : <div></div>}
     </div> 
   );

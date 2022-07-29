@@ -43,7 +43,7 @@ export const GalleryView: FC = ({}) => {
             <div className="text-2xl">
               <ul className="text-2xl">
                 <li>
-                  <Link href="https://incinerator.izmlabs.xyz/">
+                  <Link href="https://burn.izmlabs.xyz/">
                     <a>Welcome to the IZ-INERATOR!</a>
                   </Link>
                 </li>
@@ -66,7 +66,7 @@ export const GalleryView: FC = ({}) => {
                   This app will load token your accounts, allow you to choose which ones you want to close, and return the rent! (Ususally about .002 SOL)
                 </h1>
                 <h1 className="mb-10 text-m">
-                  Some accounts may not provide a title, etc. Please be careful, and use at your discretion, as burns are irreversible.
+                  Some accounts may not provide a title, picture, etc. Please be careful, and use at your discretion, as burns are irreversible.
                 </h1>
                 
                 <div className="w-full min-w-full">
@@ -78,7 +78,7 @@ export const GalleryView: FC = ({}) => {
                           <input
                             readOnly
                             type="text"
-                            placeholder="Please connect wallet"
+                            placeholder="..."
                             className="w-full input input-bordered input-lg"
                             value={walletToParsePublicKey}
                             style={{
@@ -133,7 +133,7 @@ const NftList = ({ nfts, error }: NftListProps) => {
   if (!nfts?.length) {
     return (
       <div className="text-center text-2xl pt-16">
-        No NFTs found...
+        No tokens found...
       </div>
     );
   }
