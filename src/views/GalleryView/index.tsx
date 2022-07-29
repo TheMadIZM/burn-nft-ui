@@ -60,13 +60,13 @@ export const GalleryView: FC = ({}) => {
             <div className="text-center hero-content w-full">
               <div className="w-full">
                 <h1 className="mb-6 text-6xl">
-                  Burn your unwanted <SolanaLogo /> NFTs!
+                  Burn unwanted <SolanaLogo /> NFTs!
                 </h1>
                 <h1 className="mb-2 text-m">
-                  This will load token accounts, allow you to choose which ones you want to close, and return the rent! (Ususally about .002 SOL)
+                  This app will load token your accounts, allow you to choose which ones you want to close, and return the rent! (Ususally about .002 SOL)
                 </h1>
                 <h1 className="mb-10 text-m">
-                  Some accounts may not load. Please be careful, and use at your discretion, as burns are irreversible.
+                  Some accounts may not provide a title, etc. Please be careful, and use at your discretion, as burns are irreversible.
                 </h1>
                 
                 <div className="w-full min-w-full">
