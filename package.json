@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "yarn run open-browser && next dev",
     "build": "next build",
+    "open-browser": "start http://localhost:3000",
     "start": "next start",
     "lint": "next lint"
   },
