@@ -62,7 +62,7 @@ export const BurnButton: FC<Props> = ({
                 </button>
             }
 
-            {amount === 0 && isburning && <button className="btn btn-primary uppercase" disabled>Success! Thank you for using IZ-INERATOR!</button>}
+            {amount === 0 && isburning && <button className="btn btn-primary uppercase" disabled>Successful burn! Thank you for using IZ-INERATOR!</button>}
 
 
         </div>
