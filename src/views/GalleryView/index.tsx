@@ -44,7 +44,7 @@ export const GalleryView: FC = ({}) => {
               <ul className="text-2xl">
                 <li>
                   <Link href="https://burn.izmlabs.xyz/">
-                    <a>Welcome to the IZ-INERATOR!</a>
+                    <a>Welcome to the IZ-CINERATOR!</a>
                   </Link>
                 </li>
               </ul>

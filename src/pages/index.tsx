@@ -7,7 +7,7 @@ const Home: NextPage = (props) => {
   return (
     <div  className=" flex flex-col h-screen justify-between">
       <Head>
-        <title>IZ-INERATOR</title>
+        <title>IZ-CINERATOR</title>
         <meta
           name="description"
           content="Come burn your unwanted Solana NFTs!"

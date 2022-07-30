@@ -12,7 +12,7 @@ const Footer = () => {
                 <a className="text-white" href="https://discord.gg/a45fcTmgFB"> <strong>Discord</strong></a>
             </div>
             <div className="text-center text-white text-sm pb-3">
-                Izm Labs - 2022 - Happy <strong>IZ-INERATING!</strong>
+                Izm Labs - 2022 - Happy <strong>IZ-CINERATING!</strong>
             </div>
         </footer>
     );
