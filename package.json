@@ -1,11 +1,10 @@
 {
   "name": "create-dapp-solana-nextjs",
   "version": "1.0.0",
-  "private": false,
+  "private": true,
   "scripts": {
-    "dev": "yarn run open-browser && next dev",
+    "dev": "next dev",
     "build": "next build",
-    "open-browser": "start http://localhost:3000",
     "start": "next start",
     "lint": "next lint"
   },
